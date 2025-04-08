@@ -57,7 +57,43 @@
 // let arr2 = [6,7];
 // addTwoNumbers(...arr ,...arr2);
 
-function someFunction(p1,...p2){
-    console.log(p1,p2);
-}
-someFunction("hi","there!","how are you");
+// function someFunction(p1,p2,p3){
+//     console.log(p1,p2,p3);
+// }
+// someFunction("hi","there!","how are you");
+// arrow function (p1,p2)=> body of the function;
+ 
+// let spread =["so","much","fun"];
+// let message =["javascript","is ",...spread ,"and","very","powerfull"];
+// function addTwoNumbers(x,y){
+//            console.log(x+y);
+    
+//     }
+//     let arr =[5,9];
+//     addTwoNumbers(...arr);
+//     function addTwoNumbers(x,y,z,a){
+//         console.log(x+y+z+a);
+//     }
+// function someFunction(p1,...p2){
+//     console.log(p1,p2);
+// }
+// someFunction("hi","there!","how are you");
+
+//returning function values
+//  let favoriteSubj = prompt("what is your fav subject:");
+
+// let addTwoNumbers = (x,y)=> console.log(x+y);
+// addTwoNumbers(2,4);
+// function addTwoNumber(){
+// let resultArr =[];
+
+// for(let i=0;i<10;i++){
+//     let result = addTwoNumber(i,2*i);
+//     resultArr.push(result);
+// }
+// console.log(resultArr);
+// }
+
+// function addTwoNumber(x,y){
+//     return x+y;
+// }
