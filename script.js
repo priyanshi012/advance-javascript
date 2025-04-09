@@ -97,3 +97,136 @@
 // function addTwoNumber(x,y){
 //     return x+y;
 // }
+
+//variables scope in functions
+// function testAvailablity(x){
+//     console.log("available here:",x)}
+//  testAvailablity("hi!");
+//  console.log(" Not availabe here:",x);
+
+
+//  function testAvailablity(){
+//     let y ="local avavilable";
+//     console.log("available here:",y)}
+//  testAvailablity();
+//  console.log(" Not availabe here:",y);
+
+// function testAvailable(){
+//     let y ="I will return";
+//     console.log("available here ",y);
+//     return y;
+
+// }
+// let z = testAvailable();
+// console.log("outside the function:",z);
+// console.log("not available here:", y);
+
+// let verses var variable
+//  function doingStuff(){
+//     if(true){
+//         var x ="local";
+
+//     }
+//     console.log(x);
+//  }
+//  doingStuff();
+
+//let verses var variable
+//  function doingStuff(){
+//     if(true){
+//         let x ="local";
+
+//     }
+//     console.log(x);
+//  }
+//  doingStuff();
+
+//constant scope
+//  function doingStuff(){
+//     if(true){
+//         const x ="local";
+
+//     }
+//     console.log(x);
+//  }
+//  doingStuff();
+
+//global varibale
+// let globalVar = "accessible every  where";
+// console.log("outside the function", globalVar);
+
+// function creatingNewScope(x){
+//     console.log("access the global variable inside the function",globalVar);
+
+// }
+
+// let x = "global";
+// function doingStuff(){
+//     let x ="local";
+//     console.log(x);
+// }
+// doingStuff();
+// console.log(x);
+
+// let x = "global";
+// function doingStuff(){
+//      x ="local";
+//     console.log(x);
+// }
+// doingStuff();
+// console.log(x);
+
+// let x = "global";
+// function doingStuff(x){
+//     console.log(x);
+
+// }
+// doingStuff("param");
+ 
+//confuse
+// function confuseReader(){
+//     x = "guess my scope...";
+//     console.log("inside the function",x);
+
+// }
+// confuseReader();
+// console.log("outside the function",x);
+
+//IIFE function
+
+// (function (){
+//     console.log("IIFE");
+
+// })();
+  
+
+// (()=>{
+//     console.log("run right away");
+// })();
+
+//recursive function
+// function getRecurcive(nr){
+//     console.log(nr);
+//     getRecurcive(--nr);
+
+// }
+// getRecurcive(3);
+
+// function getRecurcive(nr){
+//     console.log(nr);
+//     if(nr>0){
+//     getRecurcive(--nr);
+//     }
+// }
+// getRecurcive(3);
+
+// function longRecursive(nr){
+//     console.log("starter function",nr);
+//     if(nr>0){
+//         longRecursive(nr-1);
+//     }else{
+//         console.log("done with recursive");
+//     }
+//     console.log("ended function ",nr);
+// }
+// longRecursive(3);
