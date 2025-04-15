@@ -230,3 +230,71 @@
 //     console.log("ended function ",nr);
 // }
 // longRecursive(3);
+
+// function getRecurisve(nr){
+//     console.log(nr);
+//     if(nr>0){
+//         console.log(nr);
+//      getRecurisve(--nr);
+
+// }
+// }
+// getRecurisve(3);
+
+//the performace of the recurion is slightly worse then theperformace of regular iteration using a loop.
+
+//nested functions
+
+// function doOuterFunction(nr){
+//     console.log("outer function");
+//     doInnerFunctionStuff(nr);
+//     function doInnerFunctionStuff(x){
+//         console.log(x + 7);
+//         console.log("I Can Acccess Outer Variable:",nr);
+
+//     }
+// }
+//  doOuterFunction(2);
+
+
+//Anonymous function
+//like passing in a function as a parameter this concept add another abstract layer to coding this concept is call callback.
+
+//function callback
+// let functionVaribale = function(){
+//     console.log("Not so secret though.")
+// }
+
+// function doFlexibleStuff(executeStuff){
+//     executeStuff();
+//     console.log("Inside doFlexibleStuff .");
+// }
+// doFlexibleStuff(functionVaribale);
+
+// let youGotThis = function(){
+//     console.log("You are doing really well,keep coding");
+
+// };
+// setTimeout(youGotThis,1000);
+
+// let youGotThis = function(){
+//     console.log("You are doing really well,keep coding");
+
+// };
+// setInterval(youGotThis,1000);
+
+// let testFunction = function(){
+//     console.log("hello")
+// }();
+
+// (function(){
+//     console.log("welcome");
+// })();
+// (function(){
+//     let firstName ="Laurence";
+// })();
+// let result = (function(){
+//     let firstName = "Laurence";
+//     return firstName;
+
+// })();
