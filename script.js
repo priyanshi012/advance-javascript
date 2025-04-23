@@ -299,3 +299,38 @@
 
 // })();
 
+//inheritance //reusability of code
+// class vehicle{
+//     constructor(color,currentSpeed,maxSpeed){
+//         this.color =color;
+//         this.currentSpeed= currentSpped;
+//         this.maxSpeed =maxSpeed;
+
+//     }
+//     move(){
+//         console.log("moving at",this.currentSpeed);
+//     }
+//     accelerate(amount){
+//         this.currentSpeed += amount;
+//     }
+// }
+
+// class Motorcycle extends vehicle{
+//     constructor(color,currentSpeed,maxSpeed,fuel){
+//         super(color,currentSpped,maxSpeed);
+//         this.fuel =fuel;
+
+//     }
+//     doWheelie(){
+//         console.log("drive one one wheel!");
+//     }
+// }
+// let motor = new Motorcycle("black",0,250,"gasoline");
+// console.log(motor.color);
+// motor.accelerate(50);
+// motor.move();
+
+
+
+
+
